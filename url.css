@@ -1,0 +1,98 @@
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #444444;
+	background-color: #CCCCCC;
+	text-align: center;
+/* part 1 of 2 centering hack */
+	}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color:  #9F1329;
+	outline: none;
+	}
+a:visited {
+	color:  #ccc;
+	}
+a:active {
+	color:  #ccc;
+	}
+a:hover {
+	color: #ccc;
+	text-decoration: underline;
+	}
+strong, b {
+	font-weight: bold;
+	}
+p {
+	font-size: 12px;
+	line-height: 22px;
+	margin-top: 20px;
+	margin-bottom: 10px; 
+	}
+
+img {
+	border: 0;
+	}
+.nowrap {
+	white-space: nowrap;
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+/* must be combined with nobr in html for ie5win */
+	}
+.tiny {
+	font-size: 9px;
+	line-height: 16px;
+	margin-top: 15px;
+	margin-bottom: 5px; 
+	}
+.header {
+	text-color: #8E5432;
+	color: #000000;
+}
+.title {
+	text-color: #8E5432;
+	color: #8E5432;
+	font-size: 20px;
+	text-align: center;
+}
+.subtitle {
+	text-color: #8E5432;
+	color: #8E5432;
+	font-size: 16px;
+	text-align: center;
+}
+.subtext {
+	text-color: #000000;
+	color: #000000;
+	font-size: 10px;
+	text-align: center;
+}
+#content {
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto; 	/* opera does not like 'margin:20px auto' */
+	background: #ffffff;
+	border: 5px solid #6B6D6D;
+	text-align:left; /* part 2 of 2 centering hack */
+	width: 500px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 500px;
+	text-color: #ffffff;
+	}
+html>body #content {
+	width: 500px; /* ie5win fudge ends */
+	}
+pre {
+	font-size: 12px;
+	line-height: 22px;
+	margin-top: 20px;
+	margin-bottom: 10px; 
+	}
